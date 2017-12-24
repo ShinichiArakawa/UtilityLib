@@ -1,0 +1,618 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source\Framework">
+      <UniqueIdentifier>{3bfa4554-8034-4888-946d-e1b2740ad30f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Framework\DeviceResources">
+      <UniqueIdentifier>{6960b6bd-0bc4-48f2-8846-671b0e0267ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Framework\DirectX">
+      <UniqueIdentifier>{adf9f7d1-a399-4ea3-a100-cb5ad8ec3195}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Framework\Graphic">
+      <UniqueIdentifier>{a08df162-11f5-467e-9a88-2c59415bade9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Framework\Graphic\TextureImage">
+      <UniqueIdentifier>{ee69aae1-7395-4e0e-be95-882bd6eb42ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Framework\Graphic\Shader">
+      <UniqueIdentifier>{6cce7db0-097d-41a9-b190-9f05b5a5e7bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Framework\Graphic\Shader\IndexBuffer">
+      <UniqueIdentifier>{c4f037ce-a1ff-4d36-ba3a-c58e9351ccde}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Framework\Graphic\Shader\InputLayout">
+      <UniqueIdentifier>{042f5a40-eb13-4400-9bea-48686990f11b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Framework\Graphic\Shader\VertexBuffer">
+      <UniqueIdentifier>{67509dd2-4954-4282-84ae-c04297960c2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Framework\Graphic\SpriteBatch">
+      <UniqueIdentifier>{9df28a36-3142-404a-b138-5be48d445c50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Framework\Graphic\Gauge">
+      <UniqueIdentifier>{14a2abc1-6e4c-4a6a-babc-d909d7440a47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Framework\Graphic\BlendStateManager">
+      <UniqueIdentifier>{d87068b7-6a27-4ba0-87ac-c55667990383}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Framework\Graphic\RasterizerStateManager">
+      <UniqueIdentifier>{afcfc7b4-2d44-42f7-9a9f-aa485dec71ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Framework\Input">
+      <UniqueIdentifier>{b4b1a0d8-7027-4e55-b5df-906facad1daf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Framework\Sound">
+      <UniqueIdentifier>{bd7b7cd0-31af-4aa3-8c67-2cb339c3786c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Framework\Window">
+      <UniqueIdentifier>{e702a404-1aea-4ae8-bae9-7fd105728306}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Framework\Window\Viewport">
+      <UniqueIdentifier>{64883fd4-4e69-4f48-bf51-9706d4750e01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Framework\String">
+      <UniqueIdentifier>{ca13c770-edd6-46da-825a-e8eb0c953fce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Framework\Math">
+      <UniqueIdentifier>{c2e8bf7f-cd39-48f3-86e7-33078d655a59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Framework\Loader">
+      <UniqueIdentifier>{8b75caf4-973b-4b19-956b-60d55ccb0657}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Framework\Task">
+      <UniqueIdentifier>{7b2b9256-b5d1-418f-bd33-05b38b62b538}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Framework\QueryPerformanceTimer">
+      <UniqueIdentifier>{df906bde-ba25-4ed8-9326-4cc4efd5afac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Framework\Archive">
+      <UniqueIdentifier>{96cc1fe0-c803-4ee9-9afa-7a04f716e399}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Framework\Debug">
+      <UniqueIdentifier>{0fb4ea1d-d8ff-4cd9-98d2-a32d193190eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Framework\ConfigManager">
+      <UniqueIdentifier>{414d1464-3109-4413-99e5-3942daa29a16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Framework\Singleton">
+      <UniqueIdentifier>{8f810804-5857-4d37-b282-8b5aa1360cac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource">
+      <UniqueIdentifier>{6719adf9-7f23-481d-bf01-7799bb3957e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Framework\Grid">
+      <UniqueIdentifier>{af0ccae9-b6c3-4f2c-90b5-94cecc17bda3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Game">
+      <UniqueIdentifier>{16f76c6a-6afe-4415-adb4-8fd8c53b7bd9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Game\Menu">
+      <UniqueIdentifier>{7d3dd534-a743-4807-9ef8-530af95bb6b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Game\Camera">
+      <UniqueIdentifier>{1b3fcd57-1eeb-446b-bcb2-2a1ce3fc3264}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Game\Collision">
+      <UniqueIdentifier>{e9e48807-0ce9-4f73-b56d-0633de3cd900}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Game\Collision\2D">
+      <UniqueIdentifier>{ca632bb4-8171-4c54-b74d-8aab27e6ecc8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Game\Collision\3D">
+      <UniqueIdentifier>{dca5aa46-7a18-4ea9-9222-08050bd0dba0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Framework\Faed">
+      <UniqueIdentifier>{171422e0-c7a3-4d9e-ac53-285c8516feee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource\hlsl">
+      <UniqueIdentifier>{2d649cd6-50b4-49e3-887d-40fe9aa6c1b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Framework\Resource">
+      <UniqueIdentifier>{b9ac5064-c557-47f6-b3db-2e64ee800c50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Framework\EventManager">
+      <UniqueIdentifier>{f4e0321a-ecc2-460e-bec8-82512e415924}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Framework\RenderTarget">
+      <UniqueIdentifier>{ae0a4f6c-382f-4ae7-aa29-670c9ea9873e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Framework\Graphic\Shader\PixelShader">
+      <UniqueIdentifier>{f5d2f9a2-a186-4250-a2da-8cde6440d714}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Framework\Graphic\Shader\VertexShader">
+      <UniqueIdentifier>{94842c94-830d-46dd-b33a-4d593e9c0e96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Framework\Graphic\Shader\GeometryShader">
+      <UniqueIdentifier>{f40b9d1f-74a9-47a3-91d2-c038116091d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Framework\Graphic\Shader\ComputeShader">
+      <UniqueIdentifier>{01e9c960-56df-45ef-b2bf-c77928d6eb68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Framework\Graphic\Shader\HullShader">
+      <UniqueIdentifier>{232eeed8-23f5-4290-b1dd-27781d0740b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Framework\Graphic\Shader\StructuredBuffer">
+      <UniqueIdentifier>{88a75937-59ad-4856-a46c-0bdc0327aaa7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Framework\Graphic\ScreenShot">
+      <UniqueIdentifier>{3200ea1e-b602-4d01-9d09-501c295c8e75}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Math\Math.h">
+      <Filter>Source\Framework\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Matrix.h">
+      <Filter>Source\Framework\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Quaternion.h">
+      <Filter>Source\Framework\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Vector2f.h">
+      <Filter>Source\Framework\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Vector3f.h">
+      <Filter>Source\Framework\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Vector4f.h">
+      <Filter>Source\Framework\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Loader\File.h">
+      <Filter>Source\Framework\Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="Loader\Loader.h">
+      <Filter>Source\Framework\Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager\InputManager.h">
+      <Filter>Source\Framework\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager\Keyboard.h">
+      <Filter>Source\Framework\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager\Mouse.h">
+      <Filter>Source\Framework\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Grid\Grid.h">
+      <Filter>Source\Framework\Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="Window\Window.h">
+      <Filter>Source\Framework\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="QueryPerformanceTimer\QueryPerformanceTimer.h">
+      <Filter>Source\Framework\QueryPerformanceTimer</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound\Bgm.h">
+      <Filter>Source\Framework\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound\OrgSound.h">
+      <Filter>Source\Framework\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound\Sound.h">
+      <Filter>Source\Framework\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound\SoundManager.h">
+      <Filter>Source\Framework\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicManager\Graphic2DBase.h">
+      <Filter>Source\Framework\Graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicManager\Graphic3DBase.h">
+      <Filter>Source\Framework\Graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicManager\GraphManager.h">
+      <Filter>Source\Framework\Graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicManager\SpriteBatch\SpriteBatch.h">
+      <Filter>Source\Framework\Graphic\SpriteBatch</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicManager\Shader\Shader.h">
+      <Filter>Source\Framework\Graphic\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicManager\TextureImage\TextureImage.h">
+      <Filter>Source\Framework\Graphic\TextureImage</Filter>
+    </ClInclude>
+    <ClInclude Include="Debug\Debug.h">
+      <Filter>Source\Framework\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton\Singleton.h">
+      <Filter>Source\Framework\Singleton</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectX\Direct2DBase.h">
+      <Filter>Source\Framework\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectX\DWriteBase.h">
+      <Filter>Source\Framework\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="DeviceResources\DeviceResources.h">
+      <Filter>Source\Framework\DeviceResources</Filter>
+    </ClInclude>
+    <ClInclude Include="Archive\Archive.h">
+      <Filter>Source\Framework\Archive</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager\GamePad.h">
+      <Filter>Source\Framework\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera\Camera.h">
+      <Filter>Source\Game\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicManager\Gauge\CircleGauge.h">
+      <Filter>Source\Framework\Graphic\Gauge</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicManager\Gauge\Gauge.h">
+      <Filter>Source\Framework\Graphic\Gauge</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicManager\Gauge\PaintBrush.h">
+      <Filter>Source\Framework\Graphic\Gauge</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicManager\Gauge\RectGauge.h">
+      <Filter>Source\Framework\Graphic\Gauge</Filter>
+    </ClInclude>
+    <ClInclude Include="Task\Task.h">
+      <Filter>Source\Framework\Task</Filter>
+    </ClInclude>
+    <ClInclude Include="Task\TaskManager.h">
+      <Filter>Source\Framework\Task</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu\CMenu.h">
+      <Filter>Source\Game\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu\CMenuButton.h">
+      <Filter>Source\Game\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu\IButton.h">
+      <Filter>Source\Game\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision\Collision2D.h">
+      <Filter>Source\Game\Collision\2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision\Shape2D.h">
+      <Filter>Source\Game\Collision\2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision\Collision3D.h">
+      <Filter>Source\Game\Collision\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera\BottomViewCamera.h">
+      <Filter>Source\Game\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera\DebugCamera.h">
+      <Filter>Source\Game\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera\FollowingCamera.h">
+      <Filter>Source\Game\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Window\Viewport\ViewportManager.h">
+      <Filter>Source\Framework\Window\Viewport</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicManager\BlendStateManager\BlendStateManager.h">
+      <Filter>Source\Framework\Graphic\BlendStateManager</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicManager\Shader\ShaderSummary.h">
+      <Filter>Source\Framework\Graphic\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicManager\Shader\IndexBuffer.h">
+      <Filter>Source\Framework\Graphic\Shader\IndexBuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicManager\Shader\InputLayout.h">
+      <Filter>Source\Framework\Graphic\Shader\InputLayout</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicManager\Shader\VertexBuffer.h">
+      <Filter>Source\Framework\Graphic\Shader\VertexBuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="String\String.h">
+      <Filter>Source\Framework\String</Filter>
+    </ClInclude>
+    <ClInclude Include="ConfigManager\ConfigManager.h">
+      <Filter>Source\Framework\ConfigManager</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicManager\RasterizerStateManager\RasterizerStateManager.h">
+      <Filter>Source\Framework\Graphic\RasterizerStateManager</Filter>
+    </ClInclude>
+    <ClInclude Include="ConstantBuffer.h">
+      <Filter>Source\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Encode.h">
+      <Filter>Source\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Function.h">
+      <Filter>Source\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Tween.h">
+      <Filter>Source\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Macro.h">
+      <Filter>Source\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Fead\SlideFade.h">
+      <Filter>Source\Framework\Faed</Filter>
+    </ClInclude>
+    <ClInclude Include="Fead\CFade.h">
+      <Filter>Source\Framework\Faed</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicManager\BufferObjectStructure.h">
+      <Filter>Source\Framework\Graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="Fead\RippleFade.h">
+      <Filter>Source\Framework\Faed</Filter>
+    </ClInclude>
+    <ClInclude Include="Debug\InitializeSpy.h">
+      <Filter>Source\Framework\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="Fead\SimpleFade.h">
+      <Filter>Source\Framework\Faed</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\SpriteBatchPS.h">
+      <Filter>Source\Framework\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\SpriteBatchVS.h">
+      <Filter>Source\Framework\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\GridPS.h">
+      <Filter>Source\Framework\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\GridVS.h">
+      <Filter>Source\Framework\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\Resource.h">
+      <Filter>Source\Framework\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\RippleFadePS.h">
+      <Filter>Source\Framework\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\RippleFadeVS.h">
+      <Filter>Source\Framework\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\SlideFadePS.h">
+      <Filter>Source\Framework\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\SlideFadeVS.h">
+      <Filter>Source\Framework\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\Icon.h">
+      <Filter>Source\Framework\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="EventManager\EventManager.h">
+      <Filter>Source\Framework\EventManager</Filter>
+    </ClInclude>
+    <ClInclude Include="EventManager\Delegate.h">
+      <Filter>Source\Framework\EventManager</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderTarget\RenderTarget.h">
+      <Filter>Source\Framework\RenderTarget</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicManager\Shader\PixelShader.h">
+      <Filter>Source\Framework\Graphic\Shader\PixelShader</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicManager\Shader\VertexShader.h">
+      <Filter>Source\Framework\Graphic\Shader\VertexShader</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicManager\Shader\GeometryShader.h">
+      <Filter>Source\Framework\Graphic\Shader\GeometryShader</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicManager\Shader\ComputeShader.h">
+      <Filter>Source\Framework\Graphic\Shader\ComputeShader</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicManager\Shader\HullShader.h">
+      <Filter>Source\Framework\Graphic\Shader\HullShader</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicManager\Shader\StructuredBuffer.h">
+      <Filter>Source\Framework\Graphic\Shader\StructuredBuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicManager\ScreenShot\ScreenShot.h">
+      <Filter>Source\Framework\Graphic\ScreenShot</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Math\Matrix.cpp">
+      <Filter>Source\Framework\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Quaternion.cpp">
+      <Filter>Source\Framework\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Vector2f.cpp">
+      <Filter>Source\Framework\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Vector3f.cpp">
+      <Filter>Source\Framework\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Vector4f.cpp">
+      <Filter>Source\Framework\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Loader\File.cpp">
+      <Filter>Source\Framework\Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="Loader\Loader.cpp">
+      <Filter>Source\Framework\Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager\InputManager.cpp">
+      <Filter>Source\Framework\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager\Keyboard.cpp">
+      <Filter>Source\Framework\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager\Mouse.cpp">
+      <Filter>Source\Framework\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Grid\Grid.cpp">
+      <Filter>Source\Framework\Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="Window\Window.cpp">
+      <Filter>Source\Framework\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="QueryPerformanceTimer\QueryPerformanceTimer.cpp">
+      <Filter>Source\Framework\QueryPerformanceTimer</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound\Bgm.cpp">
+      <Filter>Source\Framework\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound\OrgSound.cpp">
+      <Filter>Source\Framework\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound\Sound.cpp">
+      <Filter>Source\Framework\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound\SoundManager.cpp">
+      <Filter>Source\Framework\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicManager\Graphic2DBase.cpp">
+      <Filter>Source\Framework\Graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicManager\Graphic3DBase.cpp">
+      <Filter>Source\Framework\Graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicManager\GraphManager.cpp">
+      <Filter>Source\Framework\Graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicManager\SpriteBatch\SpriteBatch.cpp">
+      <Filter>Source\Framework\Graphic\SpriteBatch</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicManager\TextureImage\TextureImage.cpp">
+      <Filter>Source\Framework\Graphic\TextureImage</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\Debug.cpp">
+      <Filter>Source\Framework\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Singleton\Singleton.cpp">
+      <Filter>Source\Framework\Singleton</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectX\Direct2DBase.cpp">
+      <Filter>Source\Framework\DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectX\DWriteBase.cpp">
+      <Filter>Source\Framework\DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="DeviceResources\DeviceResources.cpp">
+      <Filter>Source\Framework\DeviceResources</Filter>
+    </ClCompile>
+    <ClCompile Include="Archive\Archive.cpp">
+      <Filter>Source\Framework\Archive</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager\GamePad.cpp">
+      <Filter>Source\Framework\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera\Camera.cpp">
+      <Filter>Source\Game\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicManager\Gauge\CircleGauge.cpp">
+      <Filter>Source\Framework\Graphic\Gauge</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicManager\Gauge\Gauge.cpp">
+      <Filter>Source\Framework\Graphic\Gauge</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicManager\Gauge\PaintBrush.cpp">
+      <Filter>Source\Framework\Graphic\Gauge</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicManager\Gauge\RectGauge.cpp">
+      <Filter>Source\Framework\Graphic\Gauge</Filter>
+    </ClCompile>
+    <ClCompile Include="Task\TaskManager.cpp">
+      <Filter>Source\Framework\Task</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu\CMenu.cpp">
+      <Filter>Source\Game\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Collision\Collision2D.cpp">
+      <Filter>Source\Game\Collision\2D</Filter>
+    </ClCompile>
+    <ClCompile Include="Collision\Collision3D.cpp">
+      <Filter>Source\Game\Collision\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera\BottomViewCamera.cpp">
+      <Filter>Source\Game\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera\DebugCamera.cpp">
+      <Filter>Source\Game\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera\FollowingCamera.cpp">
+      <Filter>Source\Game\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicManager\BlendStateManager\BlendStateManager.cpp">
+      <Filter>Source\Framework\Graphic\BlendStateManager</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicManager\Shader\IndexBuffer.cpp">
+      <Filter>Source\Framework\Graphic\Shader\IndexBuffer</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicManager\Shader\InputLayout.cpp">
+      <Filter>Source\Framework\Graphic\Shader\InputLayout</Filter>
+    </ClCompile>
+    <ClCompile Include="ConfigManager\ConfigManager.cpp">
+      <Filter>Source\Framework\ConfigManager</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicManager\RasterizerStateManager\RasterizerStateManager.cpp">
+      <Filter>Source\Framework\Graphic\RasterizerStateManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Fead\SlideFade.cpp">
+      <Filter>Source\Framework\Faed</Filter>
+    </ClCompile>
+    <ClCompile Include="Fead\CFade.cpp">
+      <Filter>Source\Framework\Faed</Filter>
+    </ClCompile>
+    <ClCompile Include="Fead\RippleFade.cpp">
+      <Filter>Source\Framework\Faed</Filter>
+    </ClCompile>
+    <ClCompile Include="Fead\SimpleFade.cpp">
+      <Filter>Source\Framework\Faed</Filter>
+    </ClCompile>
+    <ClCompile Include="Resource\Icon.cpp">
+      <Filter>Source\Framework\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="Resource\Resource.cpp">
+      <Filter>Source\Framework\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="Window\Viewport\ViewportManager.cpp">
+      <Filter>Source\Framework\Window\Viewport</Filter>
+    </ClCompile>
+    <ClCompile Include="EventManager\EventManager.cpp">
+      <Filter>Source\Framework\EventManager</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderTarget\RenderTarget.cpp">
+      <Filter>Source\Framework\RenderTarget</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicManager\Shader\PixelShader.cpp">
+      <Filter>Source\Framework\Graphic\Shader\PixelShader</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicManager\Shader\VertexShader.cpp">
+      <Filter>Source\Framework\Graphic\Shader\VertexShader</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicManager\Shader\GeometryShader.cpp">
+      <Filter>Source\Framework\Graphic\Shader\GeometryShader</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicManager\Shader\ComputeShader.cpp">
+      <Filter>Source\Framework\Graphic\Shader\ComputeShader</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicManager\Shader\Shader.cpp">
+      <Filter>Source\Framework\Graphic\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicManager\Shader\HullShader.cpp">
+      <Filter>Source\Framework\Graphic\Shader\HullShader</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicManager\ScreenShot\ScreenShot.cpp">
+      <Filter>Source\Framework\Graphic\ScreenShot</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="..\Resources\Shader\RippleFadeVS.hlsl">
+      <Filter>Resource\hlsl</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Resources\Shader\RippleFadePS.hlsl">
+      <Filter>Resource\hlsl</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Resources\Shader\SlideFadeVS.hlsl">
+      <Filter>Resource\hlsl</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Resources\Shader\SlideFadePS.hlsl">
+      <Filter>Resource\hlsl</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Resources\Shader\SpriteBatchPS.hlsl">
+      <Filter>Resource\hlsl</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Resources\Shader\SpriteBatchVS.hlsl">
+      <Filter>Resource\hlsl</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>
